@@ -1,6 +1,6 @@
 li {
     display: inline;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 a{
     text-decoration: none;
@@ -67,7 +67,7 @@ a{
 .order form{
     margin-left: 5%;
 }
-button{
+.order button{
     margin-top: 2em;
     margin-left: 45%;
     width: 200px;
