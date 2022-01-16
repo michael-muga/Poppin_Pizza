@@ -1,7 +1,7 @@
 # Poppin_Pizza
 by Michael Muga
 
-![Project Image](images/website.png)
+![Project Image](images/projectimg.png)
 
 # Table of content
 
