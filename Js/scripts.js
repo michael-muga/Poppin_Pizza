@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    //event.preventDefault();
     $('#delivery').change(function(event){
         if (this.checked){
             alert("you can pick up your order in the next 1hour")
