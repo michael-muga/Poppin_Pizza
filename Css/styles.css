@@ -31,3 +31,30 @@ a{
 *{
     background-color: rgb(78, 73, 73);
 }
+#menudescr{
+    padding-top: 5em;
+    text-align: center;
+}
+.menuitems img{
+    height: 250px;
+    width: 350px;
+    border-radius: 15%;
+}
+.menuitems{
+    margin-top: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.menuitems a{
+    color: black;
+}
+.menuitems a:hover{
+    color: rgb(126, 25, 25);
+}
+#itemdetails{
+    text-align: center;
+}
