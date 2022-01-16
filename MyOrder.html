@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppin Pizza</title>
+    <link rel="stylesheet" href="/Css/bootstrap.css">
+    <link rel="stylesheet" href="/Css/styles.css">
+    <script src="/Js/jquery-3.6.0.js"></script>
+    <script src="/Js/scripts.js"></script>
+</head>
+<body>
+    <div class="navigationsec">
+        <div class="logo">
+            <img src="/images/logo.png" alt="logo" height="250">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="MyOrder.html">MyOrder</a></li>
+                <li><a href="#">OrderSummery</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="order">
+        <h2>My Order</h2>
+        <form action="" id="size">
+            <p>Please select the size of pizza you would like to order:</p>
+            <input type="checkbox" id="size1" name="size1" value="large">
+            <label for="size1">LARGE</label><br>
+            <input type="checkbox" id="size2" name="size2" value="medium">
+            <label for="size2">MEDIUM</label><br>
+            <input type="checkbox" id="size3" name="size3" value="small">
+            <label for="size3">SMALL</label><br>
+        </form>
+        <form action="" id="crust">
+            <p>Please select the type of crust you would like on your pizza order:</p>
+            <input type="checkbox" id="crust1" name="crust1" value="Crispy">
+            <label for="crust1">Crispy</label><br>
+            <input type="checkbox" id="crust2" name="crust2" value="Stuffed">
+            <label for="crust2">Stuffed</label><br>
+            <input type="checkbox" id="crust3" name="crust3" value="Glutten-free">
+            <label for="crust3">Glutten-free</label><br>
+        </form>
+        <form action="" id="toppings">
+            <p>Please select the type of toppings you would on your pizza to order:</p>
+            <input type="checkbox" id="topping1" name="topping1" value="Extracheese">
+            <label for="topping1">Extracheese</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Onions">
+            <label for="topping2">Onions</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Pepperoni">
+            <label for="topping3">Pepperoni</label><br>
+        </form>
+        <form action="" id="delivery">
+            <h3>Delivery service</h3>
+            <input type="checkbox" id="deliver" name="deliver" >
+            <label for="deliver">I want my order to be delivered</label><br>
+            <input type="checkbox" id="nodeliver" name="nodeliver">
+            <label for="nodeliver">I will pick myself</label>
+
+        </form>
+
+        <button >CheckOut</button>
+    </div>
