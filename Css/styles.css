@@ -74,3 +74,9 @@ a{
     height: 40px;
     font-size: large;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 3em;
+}

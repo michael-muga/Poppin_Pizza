@@ -20,7 +20,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="MyOrder.html">MyOrder</a></li>
-                <li><a href="#">OrderSummery</a></li>
+                <li><a href="OrderSummery.html">OrderSummery</a></li>
             </ul>
         </div>
     </div>
@@ -30,31 +30,31 @@
 
         <p>Please select the size of pizza you would like to order:</p>
         <form action="" id="size">
-            <input type="checkbox" id="size1" name="size1" value="large">
+            <input type="radio" id="size1" name="size" value="large">
             <label for="size1">LARGE</label><br>
-            <input type="checkbox" id="size2" name="size2" value="medium">
+            <input type="radio" id="size2" name="size" value="medium">
             <label for="size2">MEDIUM</label><br>
-            <input type="checkbox" id="size3" name="size3" value="small">
+            <input type="radio" id="size3" name="size" value="small">
             <label for="size3">SMALL</label><br>
         </form>
 
         <p>Please select the type of crust you would like on your pizza order:</p>
         <form action="" id="crust">
-            <input type="checkbox" id="crust1" name="crust1" value="Crispy">
+            <input type="radio" id="crust1" name="crust" value="Crispy">
             <label for="crust1">Crispy  ksh.150</label><br>
-            <input type="checkbox" id="crust2" name="crust2" value="Stuffed">
+            <input type="radio" id="crust2" name="crust" value="Stuffed">
             <label for="crust2">Stuffed ksh.200</label><br>
-            <input type="checkbox" id="crust3" name="crust3" value="Glutten-free">
+            <input type="radio" id="crust3" name="crust" value="Glutten-free">
             <label for="crust3">Glutten-free    ksh.250</label><br>
         </form>
 
         <p>Please select the type of toppings you would on your pizza to order:</p>
         <form action="" id="toppings">
-            <input type="checkbox" id="topping1" name="topping1" value="Extracheese">
+            <input type="checkbox" id="topping1" name="topping" value="Extracheese">
             <label for="topping1">Extracheese   ksh.100</label><br>
-            <input type="checkbox" id="topping2" name="topping2" value="Onions">
+            <input type="checkbox" id="topping2" name="topping" value="Onions">
             <label for="topping2">Onions    ksh.100</label><br>
-            <input type="checkbox" id="topping3" name="topping3" value="Pepperoni">
+            <input type="checkbox" id="topping3" name="topping" value="Pepperoni">
             <label for="topping3">Pepperoni ksh.150</label><br>
         </form>
 
@@ -65,12 +65,17 @@
 
         <h3>Delivery service</h3>
         <form action="" id="delivery">
-            <input type="checkbox" id="deliver" name="deliver" checked="checked" >
+            <input type="radio" id="deliver" name="deliver" value="del" >
             <label for="deliver">I want my order to be delivered</label><br>
-            <input type="checkbox" id="nodeliver" name="nodeliver">
+            <input type="radio" id="nodeliver" name="deliver" value="ndel" >
             <label for="nodeliver">I will pick myself</label>
 
         </form>
 
-        <button><a href="#">CheckOut</a></button>
+        <button><a href="OrderSummery.html">CheckOut</a></button>
+
+        <footer>
+            <p>2022 &copy Poppin Pizza. All Rights Reserved</p>
+            <p>Designed by michael muga</p>
+        </footer>
     </div>
